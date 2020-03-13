@@ -1,55 +1,42 @@
 # Project Title
 
-Code Refector for accessibility
+Code Refector for web accessibility  
 
 ## Getting Started
-Review the html code thoroughly and list items to refactor the  current code.
-Run the code in browser to view how the page work
+Review the html code thoroughly and list items to refactor the current code. 
+Clean up redundant tags & add proper HTML semantic elements.
+Run the code to make sure the original content view remains same.
 
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
 HTML
 
-```
-Give examples
-```
+### Code clean-up
+* Changes made to the existing code
+    -Title of the webpage "website" renamed to "Horiseon"
+    -alt tags added for accessiblity for all source images
+    -Indented entire html document for proper & clean code
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
-## Built With
-
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- Codes Removed
+    '''html
+    - Redundant img closing tag on line 68 
+    '''CSS
+    - Redundant id class for images on CSS into 
+    one single code (see below)
+    .benefit-lead, .benefit-brand, .benefit-cost to .benefit
+    .benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    - Removed codes that are not specified in html document from line 89 to 117
 
 
 ## Deployed Link
-
 * [See Live Site](#)
 
 
 ## Authors
-
-* **Dave Nayak** 
+Dave Nayak
 
 - (https://github.com/dnayak65/)
 - (https://www.linkedin.com/in/dave-nayak-4a519a20/)
