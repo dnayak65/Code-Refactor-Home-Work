@@ -38,8 +38,8 @@ HTML
 ## Authors
 Dave Nayak
 
-- (https://github.com/dnayak65/)
-- (https://www.linkedin.com/in/dave-nayak-4a519a20/)
+- https://dnayak65.github.io/Code-Refactor-Home-Work/
+- https://www.linkedin.com/in/dave-nayak-4a519a20/
 
 
 
